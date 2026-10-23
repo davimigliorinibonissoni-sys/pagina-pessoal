@@ -1,0 +1,12 @@
+# Sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Relatórios locais de auditoria
+lighthouse-*.html
+lighthouse-*.json
+
+# Editores
+.vscode/
+.idea/

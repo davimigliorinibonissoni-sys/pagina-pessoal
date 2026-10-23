@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="pt-BR" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <title>Página não encontrada — Davi Migliorini Bonissoni</title>
+
+  <script>
+    (function () {
+      try {
+        var stored = localStorage.getItem('theme');
+        var theme = stored || (window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark');
+        document.documentElement.dataset.theme = theme;
+      } catch (e) {}
+    })();
+  </script>
+
+  <link rel="stylesheet" href="/pagina-pessoal/assets/css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container site-header__inner">
+      <a class="brand" href="/pagina-pessoal/">
+        <span class="brand__mark" aria-hidden="true">DM</span>
+        <span class="brand__name">Davi Migliorini Bonissoni</span>
+      </a>
+    </div>
+  </header>
+
+  <main class="container error-page">
+    <p class="error-page__code">ERRO 404</p>
+    <h1 class="error-page__title">Página não encontrada</h1>
+    <p class="error-page__text">O endereço acessado não existe ou foi movido.</p>
+    <div class="error-page__actions">
+      <a class="btn btn--primary" href="/pagina-pessoal/">Voltar ao início</a>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container site-footer__inner">
+      <p class="site-footer__text">&copy; 2026 Davi Migliorini Bonissoni.</p>
+    </div>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://davimigliorinibonissoni-sys.github.io/pagina-pessoal/sitemap.xml
