@@ -41,20 +41,24 @@
 
 | Fase | Escopo | Status |
 |---|---|---|
-| 0 | Preparação do ambiente | [ ] |
-| 1 | Esqueleto HTML + metadados | [ ] |
-| 2 | Tokens e CSS base | [ ] |
-| 3 | Header + Hero | [ ] |
-| 4 | Projetos | [ ] |
-| 5 | Sobre + Habilidades + Experiência | [ ] |
-| 6 | Contato + Footer | [ ] |
-| 7 | Tema claro/escuro | [ ] |
-| 8 | Bilíngue PT/EN | [ ] |
-| 9 | Interações (menu, scroll, animações) | [ ] |
-| 10 | SEO, 404 e ativos | [ ] |
-| 11 | QA completo | [ ] |
-| 12 | Deploy no GitHub Pages | [ ] |
-| 13 | Verificação pós-deploy | [ ] |
+| 0 | Preparação do ambiente | [x] |
+| 1 | Esqueleto HTML + metadados | [x] |
+| 2 | Tokens e CSS base | [x] |
+| 3 | Header + Hero | [x] |
+| 4 | Projetos | [x] |
+| 5 | Sobre + Habilidades + Experiência | [x] |
+| 6 | Contato + Footer | [x] |
+| 7 | Tema claro/escuro | [x] |
+| 8 | Bilíngue PT/EN | [x] |
+| 9 | Interações (menu, scroll, animações) | [x] |
+| 10 | SEO, 404 e ativos | [x] |
+| 11 | QA completo | [x]* |
+| 12 | Deploy no GitHub Pages | [x] |
+| 13 | Verificação pós-deploy | [x]* |
+
+> \* Ressalvas de execução (2026-10-23):
+> - **Performance do Lighthouse não pôde ser medida**: o ambiente não tem Node/npm, então `npx lighthouse` está indisponível. As categorias medidas pela ferramenta do navegador (Acessibilidade, Boas Práticas, SEO) ficaram em **100/100/100**. O peso total da página é ~80 KB e não há requisições externas.
+> - **Testes em dispositivo real (T141)** e **validação W3C/schema.org (T112/T140)** ficam pendentes de execução manual.
 
 ---
 

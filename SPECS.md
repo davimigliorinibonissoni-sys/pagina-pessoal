@@ -1,7 +1,8 @@
 # SPECS.md — Site pessoal / portfólio
 
 > Documento de especificação do projeto `pagina-pessoal`.
-> Status: **planejamento aprovado** — nenhuma linha de código de produção escrita ainda.
+> Status: **v1 publicada** em https://davimigliorinibonissoni-sys.github.io/pagina-pessoal/
+> Conteúdo real (projetos, textos, foto, CV) ainda pendente — ver seção 12.
 > Última atualização: 2026-10-23
 
 ## 1. Visão geral
@@ -221,6 +222,10 @@ Testar em 360, 768, 1120 e 1440px.
   com HTTPS forçado. Escolher o domínio depois.
 
 ## 12. Pendências (conteúdo e ativos)
+
+> **Estado em 2026-10-23:** a v1 está no ar com placeholders visíveis marcados com
+> `[TODO]`. Contatos (e-mail, GitHub, LinkedIn) já são reais. Os itens abaixo são o que
+> falta substituir para o site deixar de ser um template.
 
 - [ ] Frase de posicionamento do hero (PT e EN).
 - [ ] Texto da seção "Sobre" (PT e EN).
