@@ -176,8 +176,9 @@ pagina-pessoal/
 │   ├── js/main.js          # tema, scroll, menu mobile
 │   ├── js/i18n.js          # dicionários PT/EN + troca de idioma
 │   ├── img/
+│   │   ├── favicon.svg
 │   │   ├── profile.webp    # TODO
-│   │   └── og-image.png    # TODO (1200×630)
+│   │   └── og-image.png
 │   ├── icons/              # SVG inline quando possível
 │   └── cv.pdf              # TODO
 └── .github/workflows/deploy.yml   # opcional (ver deploy)
